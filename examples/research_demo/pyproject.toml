@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-demo"
+version = "0.1.0"
+description = "Minimal synthetic-data research package used to exercise the agent workflow"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+# pytest is optional: the suite is plain unittest and also runs with `python -m unittest`.
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["research_demo"]

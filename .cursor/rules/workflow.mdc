@@ -6,3 +6,10 @@ Follow AGENTS.md and tasks/current.md. Cursor is the operator's interactive work
 Review Codex findings and inspect the Git diff before approving integration.
 Do not edit an agent's active worktree while automation is running.
 Never invent empirical outcomes or alter raw data.
+
+Orchestrator runs: read `.agent-runs/runs/<run-id>/summary.md` first, then `review.log` and
+`review-material.md`. Diff against the run's base commit (untracked files included):
+`git diff <base>` and `git status --untracked-files=all`. After fixing, re-check with
+`python3 scripts/orchestrate.py verify --id <id> --test-command '...'`.
+Approval (`decide --approve`) and merging are done by the human in a terminal; an AI
+assistant in Cursor must not run them.
