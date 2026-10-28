@@ -1,0 +1,169 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "steps": [
+    {
+      "name": "00-build-manifest",
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/rf-final-candidate/ResearchFlow/tools/build_release.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.98,
+      "expected_success": true
+    },
+    {
+      "name": "01-fresh-install",
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/rf-final-candidate/ResearchFlow/install.py",
+        "--install-root",
+        "/mnt/data/rf-install-validation-final/home/.local/share/researchflow",
+        "--bin-dir",
+        "/mnt/data/rf-install-validation-final/home/.local/bin"
+      ],
+      "exit_code": 0,
+      "seconds": 67.38,
+      "expected_success": true
+    },
+    {
+      "name": "02-installed-version",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 1.89,
+      "expected_success": true
+    },
+    {
+      "name": "03-repeat-install",
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/rf-final-candidate/ResearchFlow/install.py",
+        "--install-root",
+        "/mnt/data/rf-install-validation-final/home/.local/share/researchflow",
+        "--bin-dir",
+        "/mnt/data/rf-install-validation-final/home/.local/bin"
+      ],
+      "exit_code": 0,
+      "seconds": 0.96,
+      "expected_success": true
+    },
+    {
+      "name": "04-installed-offline-demo",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "demo"
+      ],
+      "exit_code": 0,
+      "seconds": 18.57,
+      "expected_success": true
+    },
+    {
+      "name": "05-feedback",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "feedback",
+        "Make result location clearer; synthetic installer test only."
+      ],
+      "exit_code": 0,
+      "seconds": 2.11,
+      "expected_success": true
+    },
+    {
+      "name": "06-develop-copy",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "develop",
+        "/mnt/data/rf-install-validation-final/development-copy"
+      ],
+      "exit_code": 0,
+      "seconds": 2.82,
+      "expected_success": true
+    },
+    {
+      "name": "07-build-update",
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/rf-install-validation-final/development-copy/tools/build_release.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.24,
+      "expected_success": true
+    },
+    {
+      "name": "08-update-through-launcher",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "update",
+        "/mnt/data/rf-install-validation-final/development-copy"
+      ],
+      "exit_code": 0,
+      "seconds": 67.65,
+      "expected_success": true
+    },
+    {
+      "name": "09-updated-version",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 2.2,
+      "expected_success": true
+    },
+    {
+      "name": "10-active-session-blocks-rollback",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "rollback"
+      ],
+      "exit_code": 1,
+      "seconds": 3.5,
+      "expected_success": false
+    },
+    {
+      "name": "11-tampered-update-blocked",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "update",
+        "/mnt/data/rf-install-validation-final/development-copy"
+      ],
+      "exit_code": 1,
+      "seconds": 4.5,
+      "expected_success": false
+    },
+    {
+      "name": "12-rollback-through-launcher",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "rollback"
+      ],
+      "exit_code": 0,
+      "seconds": 3.38,
+      "expected_success": true
+    },
+    {
+      "name": "13-restored-version",
+      "command": [
+        "/mnt/data/rf-install-validation-final/home/.local/bin/researchflow",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 1.81,
+      "expected_success": true
+    },
+    {
+      "name": "14-preservation-assertions",
+      "all_passed": true,
+      "settings_unchanged": true,
+      "project_note_unchanged": true,
+      "feedback_preserved": true,
+      "both_releases_retained": true
+    }
+  ],
+  "seconds": 179.0,
+  "complete": true,
+  "live_models_tested": false
+}

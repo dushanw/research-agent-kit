@@ -1,0 +1,14 @@
+{
+  "started_unix": 1792272856.091892,
+  "seconds": 63.28,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "tests": 52,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "passed": true,
+  "failed_tests": [],
+  "error_tests": [],
+  "live_models_tested": false
+}

@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-17T21:48:08.751841+00:00",
+  "live": false,
+  "project": "20261017-214752-c6f0db4d-5ba881e156",
+  "baseline": "FAIL",
+  "candidate": "CHECKED",
+  "directory": "/mnt/data/rf-install-validation-final/home/ResearchFlow/projects/20261017-214752-c6f0db4d-5ba881e156",
+  "implementation": "A known fixture patch applied by the demo runner, not by a live coding agent.",
+  "limit": "A successful smoke tests these CLI calls, not general model reliability or OS confinement."
+}
+Open: /mnt/data/rf-install-validation-final/home/ResearchFlow/projects/20261017-214752-c6f0db4d-5ba881e156/PROJECT_STATUS.md
+Offline demonstration used fake workers. It is not evidence that your real accounts work.

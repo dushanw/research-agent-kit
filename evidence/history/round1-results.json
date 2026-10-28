@@ -1,0 +1,16 @@
+{
+  "started_unix": 1792272684.7880318,
+  "seconds": 59.864,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "tests": 47,
+  "failures": 1,
+  "errors": 0,
+  "skips": 0,
+  "passed": false,
+  "failed_tests": [
+    "test_detached_pipe_holder_does_not_hang (test_researchflow.SupportTests.test_detached_pipe_holder_does_not_hang)"
+  ],
+  "error_tests": [],
+  "live_models_tested": false
+}

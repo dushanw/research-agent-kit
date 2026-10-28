@@ -1,0 +1,38 @@
+{
+  "state": "PASS",
+  "reason": "5 tests executed; none failed or were skipped.",
+  "results": {
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "test_ids": [
+      "tests.test_stats.NormalizeTest.test_constant_rejected",
+      "tests.test_stats.NormalizeTest.test_empty_rejected",
+      "tests.test_stats.NormalizeTest.test_known_answer",
+      "tests.test_stats.NormalizeTest.test_negative_values",
+      "tests.test_stats.NormalizeTest.test_nonfinite_rejected"
+    ]
+  },
+  "environment_id": "d24f7ef1ab789295e72880ac7a333085b42629ab1fce70b9c18869fecaf6f82f",
+  "artifacts": {
+    "outputs/result.json": {
+      "path": "/mnt/data/rf-pytest-check/run/execution/outputs/result.json",
+      "sha256": "9223941eceef95043c9a75830bfbc90ed988418b436712fcd3f1f4869aabe1a4"
+    }
+  },
+  "command": [
+    "/opt/pyvenv/bin/python3",
+    "-I",
+    "-B",
+    "/mnt/data/rf-final-candidate/ResearchFlow/rf/test_runner.py",
+    "example",
+    "--root",
+    "/mnt/data/rf-pytest-check/run/execution",
+    "--script",
+    "demo.py",
+    "--"
+  ]
+}

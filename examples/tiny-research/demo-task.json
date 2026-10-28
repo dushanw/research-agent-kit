@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "goal": "Repair min-max normalization so [2,4,6] becomes [0,0.5,1].",
+  "why": "Demonstrate a research-code repair with a known-answer check and an inspectable result.",
+  "allowed_paths": [
+    "stats.py"
+  ],
+  "tests": {
+    "kind": "unittest",
+    "directory": "tests",
+    "python": "python3",
+    "minimum": 5
+  },
+  "example": {
+    "script": "demo.py",
+    "args": []
+  },
+  "artifacts": [
+    "outputs/result.json"
+  ],
+  "context": [
+    "README.md",
+    "stats.py",
+    "tests/test_stats.py",
+    "demo.py"
+  ],
+  "limits": "Synthetic arithmetic only; not a paper replication or an authenticated coding-agent implementation."
+}

@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/opt/pyvenv/bin/python3",
+    "-I",
+    "-B",
+    "/mnt/data/rf-final-candidate/ResearchFlow/rf/test_runner.py",
+    "pytest",
+    "--root",
+    "/mnt/data/rf-pytest-check/run/execution",
+    "--tests",
+    "tests",
+    "--output",
+    "/mnt/data/rf-pytest-check/run/test-results.json"
+  ],
+  "cwd": "/mnt/data/rf-pytest-check/run/execution",
+  "started": "2026-10-17T21:47:37.850945+00:00",
+  "exit_code": 0,
+  "reason": null,
+  "stdout": ".....                                                                    [100%]\n5 passed in 0.02s\n",
+  "stderr": "",
+  "ended": "2026-10-17T21:47:39.167230+00:00",
+  "seconds": 1.316
+}

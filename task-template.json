@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "goal": "Describe one observable behavior to implement or repair.",
+  "why": "Explain why it matters to the research.",
+  "allowed_paths": ["src", "tests", "README.md", "examples"],
+  "tests": {"kind": "unittest", "directory": "tests", "python": ".venv/bin/python", "minimum": 1},
+  "example": null,
+  "artifacts": [],
+  "context": ["README.md"],
+  "limits": "Approved synthetic data only; no scientific conclusion or full-dataset validation is implied."
+}

@@ -1,0 +1,67 @@
+{
+  "version": "3.0.0",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "suite": {
+    "tests": 56,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "where": "staged installed source copy",
+    "seconds": 64.789
+  },
+  "update_fixture_suite": {
+    "tests": 56,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "version": "3.0.1 synthetic fixture",
+    "seconds": 63.139
+  },
+  "pytest_example": {
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "state": "PASS"
+  },
+  "installation_lifecycle": "PASS",
+  "preservation": {
+    "name": "14-preservation-assertions",
+    "all_passed": true,
+    "settings_unchanged": true,
+    "project_note_unchanged": true,
+    "feedback_preserved": true,
+    "both_releases_retained": true
+  },
+  "offline_demo": {
+    "baseline": "FAIL (expected)",
+    "candidate": "CHECKED",
+    "live_models": false,
+    "repair": "script-applied known fixture patch"
+  },
+  "macos_execution": "NOT_RUN",
+  "live_claude_cursor_codex": "NOT_RUN",
+  "python_3_10_runtime": "NOT_RUN",
+  "delivered_code_matches_installed_tested_code": true,
+  "executable_source_sha256": {
+    "examples/tiny-research/demo.py": "398667be9443a6ca72d10cfb44f2ab53f2e9fc1e728657e2d1e5b1a375c97d62",
+    "examples/tiny-research/stats.py": "977cac2532924660f908ebe8625b5b08f1d0dfc32592c0bf11c8faf896c3bb65",
+    "examples/tiny-research/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "examples/tiny-research/tests/test_stats.py": "ea0d33605163e15a3c56f0cf20f4df26e50b5a9a18a13bfc0f05859fec80793f",
+    "install.py": "12e0e1fd4274ef7d0ea67aade011c65326a521d5a834cd0e44c0f39b17aeb55c",
+    "prompts/lead.md": "3c25c7074e696108fea167088ada831d9f883f4f1effdf0055c6c6f5f542b94b",
+    "researchflow.py": "8b1780c1cf2fb901608fb631817fe36817eb88057f83c376824a95d5173b1517",
+    "rf/__init__.py": "35ff14d1ee80a6054efe6ca7b230fa4c1762847f0d05d27df4cea8e85424c86b",
+    "rf/cli.py": "f522d92c2cb2ba6b665c87e70ac0d226d16cfb22cc0a686674dad21cc0398c0c",
+    "rf/project.py": "10ad5fe3440d386b005d1b15917abf650c02f7faa598c1a90d4f7288315b00c3",
+    "rf/providers.py": "238a69c16b1a7183d14eb2e62e6b4096d57f4c5cc189df97008fca213427908c",
+    "rf/support.py": "c87dc6cdc16ced71cc9de133ec00822cf370493a7f8d4c1c15d5c3f74337dd03",
+    "rf/test_runner.py": "86872920575736d009ba2a072c0843b25adae51fb0cdc15e7243e23657129444",
+    "rf/workflow.py": "9630f3649a480b71752402cad46b8340082998c28cb0680cae506d6d1da71ca0",
+    "task-template.json": "72fd42f3a53640913ebb3221d65313a1119aaa0678e5c405d2251240fabdeb8e",
+    "tests/fake_worker.py": "535759a8f1a2855b1f44b8f948053e6527f8559f697b7b95ab3766167c9b6604",
+    "tests/test_researchflow.py": "725adc7d2e2b0993f002a9017f949d2a180cd3adb5ae778dcdba785a9bd9c9a8",
+    "tools/build_release.py": "3a4419a3ed1cb6d92595697e97d87d3080acc16c1f3f235b04749fe753dc28e8"
+  }
+}

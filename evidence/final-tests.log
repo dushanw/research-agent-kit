@@ -1,0 +1,65 @@
+test_checksum_rejects_extra_files (test_researchflow.InstallationTests.test_checksum_rejects_extra_files) ... ok
+test_checksum_rejects_modified_code (test_researchflow.InstallationTests.test_checksum_rejects_modified_code) ... ok
+test_finder_metadata_does_not_corrupt_release_inventory (test_researchflow.InstallationTests.test_finder_metadata_does_not_corrupt_release_inventory) ... ok
+test_installed_source_has_demo_and_runner_fixtures (test_researchflow.InstallationTests.test_installed_source_has_demo_and_runner_fixtures) ... ok
+test_codex_missing_final_does_not_parse_tool_logs (test_researchflow.ReviewTests.test_codex_missing_final_does_not_parse_tool_logs) ... ok
+test_codex_structured_readonly_adapter (test_researchflow.ReviewTests.test_codex_structured_readonly_adapter) ... ok
+test_cursor_bad_envelope_is_not_a_completed_opinion (test_researchflow.ReviewTests.test_cursor_bad_envelope_is_not_a_completed_opinion) ... ok
+test_cursor_explicit_model_and_restricted_flags (test_researchflow.ReviewTests.test_cursor_explicit_model_and_restricted_flags) ... ok
+test_cursor_profile_matches_documented_nested_schema (test_researchflow.ReviewTests.test_cursor_profile_matches_documented_nested_schema) ... ok
+test_deleted_secret_is_screened (test_researchflow.ReviewTests.test_deleted_secret_is_screened) ... ok
+test_duplicate_keys_rejected (test_researchflow.ReviewTests.test_duplicate_keys_rejected) ... ok
+test_duplicate_verdict_cannot_erase_high_finding (test_researchflow.ReviewTests.test_duplicate_verdict_cannot_erase_high_finding) ... ok
+test_malformed_severity_is_a_controlled_blocker (test_researchflow.ReviewTests.test_malformed_severity_is_a_controlled_blocker) ... ok
+test_missing_evidence_cannot_default_to_true (test_researchflow.ReviewTests.test_missing_evidence_cannot_default_to_true) ... ok
+test_no_silent_auto_model (test_researchflow.ReviewTests.test_no_silent_auto_model) ... ok
+test_quoted_credential_assignment_is_screened (test_researchflow.ReviewTests.test_quoted_credential_assignment_is_screened) ... ok
+test_severity_without_evidence_rejected (test_researchflow.ReviewTests.test_severity_without_evidence_rejected) ... ok
+test_task_secret_is_screened (test_researchflow.ReviewTests.test_task_secret_is_screened) ... ok
+test_valid_structured_review (test_researchflow.ReviewTests.test_valid_structured_review) ... ok
+test_detached_pipe_holder_does_not_hang (test_researchflow.SupportTests.test_detached_pipe_holder_does_not_hang) ... ok
+test_exclusive_lock_never_unlinks_inode (test_researchflow.SupportTests.test_exclusive_lock_never_unlinks_inode) ... ok
+test_git_python_and_credential_environment_not_inherited (test_researchflow.SupportTests.test_git_python_and_credential_environment_not_inherited) ... ok
+test_literal_arguments_do_not_expand_shell (test_researchflow.SupportTests.test_literal_arguments_do_not_expand_shell) ... ok
+test_output_limit_is_not_success (test_researchflow.SupportTests.test_output_limit_is_not_success) ... ok
+test_shared_session_lock_blocks_installer (test_researchflow.SupportTests.test_shared_session_lock_blocks_installer) ... ok
+test_symlink_working_directory_escape_rejected (test_researchflow.SupportTests.test_symlink_working_directory_escape_rejected) ... ok
+test_timeout_returns_with_bounded_cleanup (test_researchflow.SupportTests.test_timeout_returns_with_bounded_cleanup) ... ok
+test_changed_original_requires_reconciliation (test_researchflow.TakeoverTests.test_changed_original_requires_reconciliation) ... ok
+test_dirty_staged_unstaged_and_untracked_work_is_preserved (test_researchflow.TakeoverTests.test_dirty_staged_unstaged_and_untracked_work_is_preserved) ... ok
+test_existing_workspace_is_reused_not_overwritten (test_researchflow.TakeoverTests.test_existing_workspace_is_reused_not_overwritten) ... ok
+test_git_filter_config_is_refused_before_checkout (test_researchflow.TakeoverTests.test_git_filter_config_is_refused_before_checkout) ... ok
+test_ignored_data_is_not_copied_or_claimed_backed_up (test_researchflow.TakeoverTests.test_ignored_data_is_not_copied_or_claimed_backed_up) ... ok
+test_inherited_hook_does_not_execute (test_researchflow.TakeoverTests.test_inherited_hook_does_not_execute) ... ok
+test_raw_identity_changes_even_without_git_index_change (test_researchflow.TakeoverTests.test_raw_identity_changes_even_without_git_index_change) ... ok
+test_source_symlink_is_refused (test_researchflow.TakeoverTests.test_source_symlink_is_refused) ... ok
+test_actual_all_skipped_unittest_is_blocked (test_researchflow.TestEvidenceTests.test_actual_all_skipped_unittest_is_blocked) ... ok
+test_actual_empty_suite_is_blocked (test_researchflow.TestEvidenceTests.test_actual_empty_suite_is_blocked) ... ok
+test_all_skipped_not_passed (test_researchflow.TestEvidenceTests.test_all_skipped_not_passed) ... ok
+test_exit_zero_without_evidence_is_blocked (test_researchflow.TestEvidenceTests.test_exit_zero_without_evidence_is_blocked) ... ok
+test_expected_failures_are_not_a_clean_pass (test_researchflow.TestEvidenceTests.test_expected_failures_are_not_a_clean_pass) ... ok
+test_failed_counts_override_zero_exit (test_researchflow.TestEvidenceTests.test_failed_counts_override_zero_exit) ... ok
+test_inconsistent_counts_blocked (test_researchflow.TestEvidenceTests.test_inconsistent_counts_blocked) ... ok
+test_missing_artifact_blocks_execution_gate (test_researchflow.TestEvidenceTests.test_missing_artifact_blocks_execution_gate) ... ok
+test_zero_tests_not_passed (test_researchflow.TestEvidenceTests.test_zero_tests_not_passed) ... ok
+test_approved_cursor_override_uses_exact_model (test_researchflow.WorkflowTests.test_approved_cursor_override_uses_exact_model) ... ok
+test_baseline_runs_without_any_proposed_diff (test_researchflow.WorkflowTests.test_baseline_runs_without_any_proposed_diff) ... ok
+test_changed_evidence_invalidates_status (test_researchflow.WorkflowTests.test_changed_evidence_invalidates_status) ... ok
+test_foreign_session_cannot_take_operation_lock (test_researchflow.WorkflowTests.test_foreign_session_cannot_take_operation_lock) ... ok
+test_full_takeover_failure_repair_review_and_stale_handoff (test_researchflow.WorkflowTests.test_full_takeover_failure_repair_review_and_stale_handoff) ... ok
+test_invalid_scope_and_cwd_contract_is_rejected (test_researchflow.WorkflowTests.test_invalid_scope_and_cwd_contract_is_rejected) ... ok
+test_missing_verified_artifact_invalidates_status (test_researchflow.WorkflowTests.test_missing_verified_artifact_invalidates_status) ... ok
+test_no_approval_or_automatic_promotion_command (test_researchflow.WorkflowTests.test_no_approval_or_automatic_promotion_command) ... ok
+test_source_change_after_capture_invalidates_evidence (test_researchflow.WorkflowTests.test_source_change_after_capture_invalidates_evidence) ... ok
+test_takeover_cannot_overlap_active_lead_session (test_researchflow.WorkflowTests.test_takeover_cannot_overlap_active_lead_session) ... ok
+test_unapproved_cursor_override_is_blocked_without_call (test_researchflow.WorkflowTests.test_unapproved_cursor_override_is_blocked_without_call) ... ok
+test_worker_call_budget_is_enforced (test_researchflow.WorkflowTests.test_worker_call_budget_is_enforced) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 64.789s
+
+OK
+
+Installed ResearchFlow 3.0.0
+Next: /mnt/data/rf-install-validation-final/home/.local/bin/researchflow setup
+Settings and project records live in ~/ResearchFlow, separate from versioned code.
